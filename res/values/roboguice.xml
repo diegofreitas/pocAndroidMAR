@@ -1,0 +1,5 @@
+<resources> 
+    <string-array name="roboguice_modules">
+        <item>poc.tracexpenses.TracExpensesModule</item>
+    </string-array>
+</resources>

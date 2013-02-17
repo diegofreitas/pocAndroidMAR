@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pocperf</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_transactions">TransactionsActivity</string>
+    <string name="title_activity_transaction">TransactionActivity</string>
+    <string name="transaction">Transaction</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="new_transaction">New Transaction</string>
+    <string name="img_category">category</string>
+    <string name="txt_item">txt_item</string>
+    <string name="ht_item">Item</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="accounts">Accounts</string>
+    <string name="history">History</string>
+    <string name="statistics">Statistics</string>
+
+</resources>

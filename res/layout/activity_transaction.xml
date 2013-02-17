@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TransactionActivity" 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    >
+	    
+	     <TextView
+	        android:id="@+id/txt_transactions"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/transaction"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	     
+	     <EditText
+	        android:id="@+id/edt_amount"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	
+	        android:inputType="numberDecimal" />
+	     
+	     <EditText
+	        android:id="@+id/edt_item"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="text"
+	        android:hint="@string/ht_item" 
+	        />
+	     
+	     
+	    <Spinner
+	        android:id="@+id/spn_category"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        />
+	
+	    <Spinner
+	        android:id="@+id/spn_type"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <DatePicker
+	        android:id="@+id/dtp_createdAt"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	     />
+	
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1">
+	        
+	        <Button
+		        android:id="@+id/btn_cancel"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_alignParentLeft="true"
+		        android:onClick="cancelClickListener"
+		        android:text="@string/cancel" />
+		    <Button
+		        android:id="@+id/btn_save"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="saveClickListener"
+		        android:layout_toRightOf="@+id/btn_cancel"
+		        android:layout_alignParentBottom="true"
+		        android:text="@string/save" />
+		
+		    
+	    </RelativeLayout>
+	    
+	
+	</LinearLayout>
+</ScrollView>
